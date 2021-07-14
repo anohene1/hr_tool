@@ -1,10 +1,11 @@
 # hr_tool
 
-A new Flutter application.
+A Flutter implementation of a mockup I saw on dribbble
+
+## Screenshot
+![Screenshot](https://github.com/anohene1/hr_tool/blob/main/Screenshot.png)
 
 ## Getting Started
-
-This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
 
