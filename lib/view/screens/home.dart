@@ -26,6 +26,30 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      floatingActionButton: MouseRegion(
+        cursor: SystemMouseCursors.click,
+        child: Container(
+          height: 50,
+          width: 170,
+          decoration: BoxDecoration(
+            color: purple,
+            borderRadius: BorderRadius.circular(500)
+          ),
+          padding: EdgeInsets.only(left: 10),
+          child: Row(
+            children: [
+              Icon(Icons.add, color: Colors.white,),
+              // HorizontalSpacing(10),
+              Text(
+                'New Job Opening',
+                style: TextStyle(
+                  color: Colors.white
+                ),
+              )
+            ],
+          ),
+        ),
+      ),
       body: Container(
           color: gray.withOpacity(0.5),
         child: Column(
